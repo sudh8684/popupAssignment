@@ -1,0 +1,96 @@
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Thin;
+  src: url(../fonts/Poppins-Thin.ttf);
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+#success {
+  display: none;
+}
+
+#success-content {
+  padding: 20%;
+  text-align: center;
+  font-family: Poppins-Regular;
+  font-size: 1.4rem;
+}
+
+p {
+  font-family: Poppins-Regular;
+}
+
+input {
+  border: 1px solid #bbbbbb;
+  height: 2rem;
+  width: 100%;
+  padding: 1.4rem;
+  color: #3b3b3b;
+  font-size: 1.4rem;
+}
+
+input::placeholder {
+  font-family: Poppins-Thin;
+  color: #3b3b3b;
+  font-weight: bolder;
+}
+
+button {
+  height: 4rem;
+  min-width: 109%;
+  border-radius: 0;
+  border: 0;
+  margin-top: 2rem;
+  background-color: #151515;
+  color: white;
+  font-family: Poppins-Regular;
+  font-size: larger;
+  font-weight: 400;
+}
+
+.font-big {
+  font-family: Poppins-SemiBold;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+.font-mid {
+  font-family: Poppins-Regular;
+  font-size: 40px;
+}
+#email {
+  margin-top: 4rem;
+}
+#image-container {
+  width: 40%;
+}
+
+#main-img {
+  width: 100%;
+}
+
+#logo {
+  margin-top: 2rem;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
